@@ -1,0 +1,34 @@
+{
+  "name": "builder-feflow-example",
+  "version": "0.0.1",
+  "description": "Feflow示例构建器.",
+  "main": "lib/index.js",
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz ",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iv-web/builder-webpack"
+  },
+  "license": "MIT",
+  "configs": {
+    "compatibleVersion": ">=0.0.1"
+  },
+  "keywords": [
+    "webpack",
+    "builder",
+    "feflow"
+  ],
+  "files": [
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^2.3.0",
+    "conventional-changelog-cli": "^1.2.0",
+    "husky": "^0.13.1",
+    "validate-commit-msg": "^2.11.1"
+  }
+}
